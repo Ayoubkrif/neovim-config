@@ -1,0 +1,3 @@
+" Configuration pour l'entête 42
+let g:user42 = $USER
+let g:mail42 = $USER . "@42.fr"

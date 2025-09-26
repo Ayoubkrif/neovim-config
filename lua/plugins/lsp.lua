@@ -6,7 +6,7 @@ return {
 		if not ok then
 			return print("Error: couldnt load lspconfig")
 		end
-		lspconfig["clangd"].setup({})
+		lspconfig["clangd"].setup({ cmd = { "clangd", "--compile-commands-dir=." } })
 		lspconfig["lua_ls"].setup({
 			on_init = function(client)
 				if client.workspace_folders then

@@ -5,7 +5,7 @@ return {
 			palette = "astromars",
 			background = {
 				light = "astrolight",
-				dark = "astromars",
+				dark = "astrolight",
 			},
 			palettes = {},
 		},
